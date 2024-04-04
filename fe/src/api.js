@@ -49,7 +49,6 @@ export const signup = async (
   );
 };
 
-// tickets
 
 export const getAllTickets = async () => {
   if (!auth.token) return;
